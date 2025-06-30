@@ -29,8 +29,9 @@ This project is an end-to-end **ETL (Extract, Transform, Load)** pipeline that f
 city_name  |     date_time      | temperature_c | humidity_percent | weather_condition
 -----------|--------------------|---------------|------------------|-------------------
 San Jose   | 2025-06-29 16:15:02|     21.36     |        58        |    few clouds
+```
 
-Technologies Used
+## Technologies Used
 - Python 3.9
 - OpenWeatherMap API
 - SQLite3
@@ -39,7 +40,7 @@ Technologies Used
 - Cron (for scheduling)
 
 
-Setup Instructions:
+## Setup Instructions:
 1. Clone the repository
 git clone https://github.com/gwibzzz/weather-etl-project.git
 cd weather-etl-project
@@ -59,7 +60,7 @@ crontab -e
 0 7 * * * /full/path/to/venv/bin/python /full/path/to/weather_etl.py
 
 
-Directory Structure:
+## Directory Structure:
 weather-etl-project/
 ├── weather_etl.py
 ├── weather_data.db
@@ -71,12 +72,12 @@ weather-etl-project/
 └── README.md
 
 
-Next Ideas:
+## Next Ideas:
 - Multi-city weather ETL
 - Export to CSV or Google Sheets
 - Cloud deployment (e.g., AWS Lambda, Azure Function)
 
-Author
+## Author
 Erin Gribi
 📍 Business + Analytics graduate
 🐱 Cat lover, data explorer
