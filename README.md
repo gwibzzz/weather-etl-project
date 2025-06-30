@@ -61,6 +61,7 @@ crontab -e
 
 
 ## Directory Structure:
+```text
 weather-etl-project/
 ├── weather_etl.py
 ├── weather_data.db
@@ -70,7 +71,7 @@ weather-etl-project/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Next Ideas:
 - Multi-city weather ETL
@@ -83,5 +84,5 @@ Erin Gribi
 🐱 Cat lover, data explorer
 🌸 https://www.linkedin.com/in/erin-gribi/
 
-License
+## License
 This project is open-source and available under the MIT License.
